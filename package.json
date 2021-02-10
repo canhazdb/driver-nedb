@@ -1,0 +1,32 @@
+{
+  "name": "canhazdb-driver-nedb",
+  "version": "1.0.1",
+  "description": "An nedb driver for canhazdb.",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "nedb-promises": "^4.1.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "basictap": "^1.1.11",
+    "c8": "^7.3.5"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canhazdb/driver-nedb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/canhazdb/driver-nedb/issues"
+  },
+  "homepage": "https://github.com/canhazdb/driver-nedb#readme"
+}
